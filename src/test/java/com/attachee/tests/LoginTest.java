@@ -22,7 +22,7 @@ public class LoginTest extends Base{
         accessMaintainersPages.goToRecruitmentPage();
         accessMaintainersPages.goToPerformancePage();
 
-        System.out.println("We are done yaaaaaaaaaaay");
+        System.out.println("Shalom");
 
     }
 }

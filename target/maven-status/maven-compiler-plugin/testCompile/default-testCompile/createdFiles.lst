@@ -1,2 +1,3 @@
-com/attachee/tests/LoginTest.class
 com/attachee/AppTest.class
+com/attachee/tests/AccessMaintainersTest.class
+com/attachee/tests/LoginTest.class

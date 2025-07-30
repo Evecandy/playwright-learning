@@ -8,20 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">58,517</td><td></td><td></td></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">62,037</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.attachee.tests.AccessMaintainersTest</td><td><a href="#m0">navigateSideButtons</a></td><td rowspan="1">1753686794232</td><td rowspan="1">30033</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.attachee.tests.LoginTest</td><td><a href="#m1">navigateSideButtons</a></td><td rowspan="1">1753686836468</td><td rowspan="1">6874</td></tr><tr class="passedeven"><td><a href="#m2">testValidLogin</a></td><td rowspan="1">1753686833456</td><td rowspan="1">3004</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.attachee.tests.AccessMaintainersTest</td><td><a href="#m0">navigateSideButtons</a></td><td rowspan="1">1753852536829</td><td rowspan="1">30132</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.attachee.tests.LoginTest</td><td><a href="#m1">navigateSideButtons</a></td><td rowspan="1">1753852579106</td><td rowspan="1">9078</td></tr><tr class="passedeven"><td><a href="#m2">testValidLogin</a></td><td rowspan="1">1753852575350</td><td rowspan="1">3748</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">com.attachee.tests.AccessMaintainersTest#navigateSideButtons</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+<h2>Surefire test</h2><h3 id="m0">com.attachee.tests.AccessMaintainersTest#navigateSideButtons</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
   message=&apos;Timeout 30000ms exceeded.
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (/tmp/playwright-java-9813598122257695532/package/lib/server/progress.js:87:26)
-    at Frame.click (/tmp/playwright-java-9813598122257695532/package/lib/server/frames.js:995:23)
-    at FrameDispatcher.click (/tmp/playwright-java-9813598122257695532/package/lib/server/dispatchers/frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (/tmp/playwright-java-9813598122257695532/package/lib/server/dispatchers/dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (/tmp/playwright-java-9813598122257695532/package/lib/server/dispatchers/dispatcher.js:362:39)
+    at ProgressController.run (/tmp/playwright-java-16591149884625241735/package/lib/server/progress.js:87:26)
+    at Frame.click (/tmp/playwright-java-16591149884625241735/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/tmp/playwright-java-16591149884625241735/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/tmp/playwright-java-16591149884625241735/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-16591149884625241735/package/lib/server/dispatchers/dispatcher.js:362:39)
 }
 Call log:
 - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName(&quot;Leave&quot;))
@@ -41,16 +41,16 @@ Call log:
 	at com.microsoft.playwright.Locator.click(Locator.java:2387)
 	at com.attachee.pages.AccessMaintainersPages.goToLeavePage(AccessMaintainersPages.java:24)
 	at com.attachee.tests.AccessMaintainersTest.navigateSideButtons(AccessMaintainersTest.java:13)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 Caused by: com.microsoft.playwright.TimeoutError: Error {
   message=&apos;Timeout 30000ms exceeded.
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (/tmp/playwright-java-9813598122257695532/package/lib/server/progress.js:87:26)
-    at Frame.click (/tmp/playwright-java-9813598122257695532/package/lib/server/frames.js:995:23)
-    at FrameDispatcher.click (/tmp/playwright-java-9813598122257695532/package/lib/server/dispatchers/frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (/tmp/playwright-java-9813598122257695532/package/lib/server/dispatchers/dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (/tmp/playwright-java-9813598122257695532/package/lib/server/dispatchers/dispatcher.js:362:39)
+    at ProgressController.run (/tmp/playwright-java-16591149884625241735/package/lib/server/progress.js:87:26)
+    at Frame.click (/tmp/playwright-java-16591149884625241735/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/tmp/playwright-java-16591149884625241735/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/tmp/playwright-java-16591149884625241735/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-16591149884625241735/package/lib/server/dispatchers/dispatcher.js:362:39)
 }
 Call log:
 - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName(&quot;Leave&quot;))
@@ -58,8 +58,8 @@ Call log:
 	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
 	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
-	... 51 more
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	... 44 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.attachee.tests.LoginTest#navigateSideButtons</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.attachee.tests.LoginTest#testValidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
