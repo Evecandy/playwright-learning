@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.attachee.tests.AccessMaintainersTest" time="62.499" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.attachee.tests.AccessMaintainersTest" time="31.819" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk/lib"/>
-    <property name="sun.java.command" value="/home/candy/Projects/simple-playwright-framework/target/surefire/surefirebooter-20250730090702353_3.jar /home/candy/Projects/simple-playwright-framework/target/surefire 2025-07-30T09-07-01_518-jvmRun1 surefire-20250730090702353_1tmp surefire_0-20250730090702353_2tmp"/>
+    <property name="sun.java.command" value="/home/candy/Projects/simple-playwright-framework/target/surefire/surefirebooter-20250730120032561_3.jar /home/candy/Projects/simple-playwright-framework/target/surefire 2025-07-30T12-00-32_241-jvmRun1 surefire-20250730120032561_1tmp surefire_0-20250730120032561_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="AccessMaintainersTest"/>
     <property name="surefire.test.class.path" value="/home/candy/Projects/simple-playwright-framework/target/test-classes:/home/candy/Projects/simple-playwright-framework/target/classes:/home/candy/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/candy/.m2/repository/com/microsoft/playwright/playwright/1.41.2/playwright-1.41.2.jar:/home/candy/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/candy/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/candy/.m2/repository/com/microsoft/playwright/driver/1.41.2/driver-1.41.2.jar:/home/candy/.m2/repository/com/microsoft/playwright/driver-bundle/1.41.2/driver-bundle-1.41.2.jar:/home/candy/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/candy/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/candy/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/candy/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/candy/Projects/simple-playwright-framework/target/surefire/surefirebooter-20250730090702353_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/candy/Projects/simple-playwright-framework/target/surefire/surefirebooter-20250730120032561_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6"/>
     <property name="user.name" value="candy"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="navigateSideButtons" classname="com.attachee.tests.AccessMaintainersTest" time="6.944">
+  <testcase name="navigateSideButtons" classname="com.attachee.tests.AccessMaintainersTest" time="6.045">
     <system-out><![CDATA[✅ Successfully navigated to Leave page!
 Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
 ]]></system-out>
